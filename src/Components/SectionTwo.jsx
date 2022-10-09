@@ -21,6 +21,15 @@ const SectionTwo = () => {
           <img alt="" src={montageEarnGif} width="600" className="my-3 mx-3 d-inline-block align-top" />
         </Col>
       </Row>
+      <Row>
+        <Col className="section-two-p">
+          <p>
+            The trademarks, logos and brand names that appear on this website are used for informational or editorial
+            purposes and are the property of their respective owners. Use of these trademarks, logos and brand names does not
+            imply any affiliation with or endorsement by their owners.
+          </p>
+        </Col>
+      </Row>
     </Container>
   );
 };
