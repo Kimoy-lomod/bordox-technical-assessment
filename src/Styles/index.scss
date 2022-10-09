@@ -1,0 +1,14 @@
+$primaryColor: #747FFE;
+$secondaryColor: #280A5F;
+
+.active-link {
+  color: $primaryColor;
+  font-weight: bold;
+}
+
+
+.inactive-link {
+  color: $secondaryColor;
+  font-weight: bold;
+}
+
