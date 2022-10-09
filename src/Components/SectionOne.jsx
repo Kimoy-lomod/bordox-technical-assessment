@@ -13,7 +13,7 @@ function SectionOne() {
             style={{
               color: "#16BBFD",
               backgroundColor: "#16BBFD",
-              height: 5,
+              height: 5, 
             }}
           />
           <p>
@@ -22,7 +22,7 @@ function SectionOne() {
           </p>
         </div>
       </div>
-      <video autoPlay muted id="myVideo">
+      <video autoPlay loop muted id="myVideo">
         <source src={nftCollectorVideo} type="video/mp4" />
       </video>
     </>
