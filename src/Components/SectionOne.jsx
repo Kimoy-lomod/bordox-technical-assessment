@@ -1,4 +1,4 @@
-import "../Styles/SectionOne.css";
+import "../styles/SectionOne.css";
 import nftCollectorVideo from "../assets/nft-collectors.mp4";
 import mainLogo from "../assets/logo_white.svg";
 

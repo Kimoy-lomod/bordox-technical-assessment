@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "../Styles/SectionTwo.css";
+import "../styles/SectionTwo.css";
 import montageEarnGif from "../assets/nft-montage-earn.gif";
 
 const SectionTwo = () => {
