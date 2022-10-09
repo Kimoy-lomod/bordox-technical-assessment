@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+
 import Header from "./components/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/index.css";
@@ -7,11 +10,26 @@ import SectionThree from "./components/SectionThree";
 import SectionFour from "./components/SectionFour";
 import SectionFive from "./components/SectionFive";
 
-import { store } from "./store";
+import fakeData from "./fakeData.json";
 
 function App() {
-  store.subscribe(() => console.log(store.getState()));
-  store.dispatch({ type: "dataAdded" });
+  const dispatch = useDispatch();
+  const models = useSelector((state) => state.models);
+
+  useEffect(() => {
+    if (models.length === 0) {
+      fakeData.map(({ id, title, description }) =>
+        dispatch({
+          type: "LOAD",
+          payload: {
+            id,
+            title,
+            description,
+          },
+        })
+      );
+    }
+  }, [dispatch, models]);
 
   return (
     <>
