@@ -1,7 +1,7 @@
 #myVideo {
   width: 100vw;
-  position: fixed;
   z-index: 1;
+  height: 73.5vh;
 }
 
 #myBtn {
@@ -21,7 +21,7 @@
 
 .content {
   text-align: center;
-  position: fixed;
+  position: absolute;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100vw;
