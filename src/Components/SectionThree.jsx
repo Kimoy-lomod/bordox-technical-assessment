@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../Styles/SectionThree.css";
 
-const SectionThree = () => {
+const SectionThree = ({ data }) => {
   return (
     <div className="s3-container">
       <div>

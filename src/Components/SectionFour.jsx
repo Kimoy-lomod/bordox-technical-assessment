@@ -1,5 +1,5 @@
 import Button from "react-bootstrap/Button";
-import neonNightClubImg from "../Assets/neon-nightclub.jpg";
+import neonNightClubImg from "../assets/neon-nightclub.jpg";
 
 const SectionFour = () => {
   return (

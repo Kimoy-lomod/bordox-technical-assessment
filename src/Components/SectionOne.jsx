@@ -1,6 +1,6 @@
 import "../Styles/SectionOne.css";
-import nftCollectorVideo from "../Assets/nft-collectors.mp4";
-import mainLogo from "../Assets/logo_white.svg";
+import nftCollectorVideo from "../assets/nft-collectors.mp4";
+import mainLogo from "../assets/logo_white.svg";
 
 function SectionOne() {
   return (

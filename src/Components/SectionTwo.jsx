@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../Styles/SectionTwo.css";
-import montageEarnGif from "../Assets/nft-montage-earn.gif";
+import montageEarnGif from "../assets/nft-montage-earn.gif";
 
 const SectionTwo = () => {
   return (

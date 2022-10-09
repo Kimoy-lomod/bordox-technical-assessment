@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 // local imports
-import coloredMainLogo from "../Assets/colored_main_logo.svg";
+import coloredMainLogo from "../assets/colored_main_logo.svg";
 
 function Header() {
   return (

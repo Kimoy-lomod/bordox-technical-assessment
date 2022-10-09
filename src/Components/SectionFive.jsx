@@ -1,7 +1,7 @@
 import { Col } from "react-bootstrap";
 import "../Styles/SectionFive.css";
-import socialIcons from "../Assets/social.svg";
-import embedLogoWhite from "../Assets/embed_logo_white.svg";
+import socialIcons from "../assets/social.svg";
+import embedLogoWhite from "../assets/embed_logo_white.svg";
 
 const SectionFive = () => {
   return (
