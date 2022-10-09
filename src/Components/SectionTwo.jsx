@@ -15,7 +15,9 @@ const SectionTwo = () => {
             In a decentralised world, you power the brand. Influence the way brands will look in the metaverse and build a
             community around those you love. Be a part of the change and join Embed’s decentralized protocol today
           </p>
-          <Button variant="primary">Primary</Button>{" "}
+          <div>
+            <button class="custom-button border-gradient border-gradient-purple">Join Waitlist</button>
+          </div>
         </Col>
         <Col>
           <img alt="" src={montageEarnGif} width="600" className="my-3 mx-3 d-inline-block align-top" />

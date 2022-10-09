@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 
 import Container from "react-bootstrap/Container";
@@ -6,7 +7,15 @@ import Col from "react-bootstrap/Col";
 import "../styles/SectionThree.css";
 
 const SectionThree = () => {
+  const [data, setData] = useState([]);
   const models = useSelector((state) => state.models);
+
+  useEffect(() => {
+    if (models) {
+      setData(models);
+    }
+  }, [models]);
+
   return (
     <div className="s3-container">
       <div>
@@ -14,8 +23,8 @@ const SectionThree = () => {
       </div>
       <Container>
         <Row>
-          {models.map(({ title, description }, i) => (
-            <Col>
+          {data.map(({ title, description }, i) => (
+            <Col key={i}>
               <div className={`box box-${i}`}>
                 <h3>{`#${i} ${title}`} </h3>
                 <p>{description}</p>
