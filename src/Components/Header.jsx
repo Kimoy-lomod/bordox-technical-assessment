@@ -8,7 +8,7 @@ import coloredMainLogo from "../Assets/colored_main_logo.svg";
 function Header() {
   return (
     <>
-      <Navbar bg="white" expand="lg" style={{ zIndex: 1 }}>
+      <Navbar bg="white" expand="lg" style={{ zIndex: 99 }}>
         <Container fluid>
           <Navbar.Brand href="#home">
             <img alt="" src={coloredMainLogo} width="150" height="30" className="my-3 mx-3 d-inline-block align-top" />
