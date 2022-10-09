@@ -1,5 +1,5 @@
+import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../styles/SectionTwo.css";
@@ -16,7 +16,10 @@ const SectionTwo = () => {
             community around those you love. Be a part of the change and join Embed’s decentralized protocol today
           </p>
           <div>
-            <button class="custom-button border-gradient border-gradient-purple">Join Waitlist</button>
+            <button class="custom-button border-gradient border-gradient-purple">
+              Join Waitlist
+              <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
+            </button>
           </div>
         </Col>
         <Col>
