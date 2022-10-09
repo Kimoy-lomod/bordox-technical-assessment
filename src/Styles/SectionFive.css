@@ -1,3 +1,17 @@
 .details {
   font-size: large;
+}
+
+.footer-links {
+  margin-top: 3rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+.footer-links span {
+  margin-right: 1rem;
 }/*# sourceMappingURL=SectionFive.css.map */

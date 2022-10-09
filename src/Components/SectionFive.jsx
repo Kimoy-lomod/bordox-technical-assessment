@@ -1,12 +1,15 @@
 import { Col, Row } from "react-bootstrap";
 import "../Styles/SectionFive.css";
+import socialIcons from "../Assets/social.svg";
+import embedLogoWhite from "../Assets/embed_logo_white.svg";
 
 const SectionFive = () => {
   return (
-    <div style={{ padding: "20rem 20rem", display: "flex", backgroundColor: "#280A5F", color: "white", height: "100vh" }}>
+    <div style={{ padding: "20rem 20rem", display: "flex", backgroundColor: "#280A5F", color: "white", height: "70vh" }}>
       <Col>
         <div>
-          <h1>Section Five</h1>
+          <img alt="" src={embedLogoWhite} width="200" />
+          <p className="mt-3">© Embed 2022</p>
         </div>
       </Col>
       <Col>
@@ -15,6 +18,16 @@ const SectionFive = () => {
             Embed protocol is a marketing community engine solution for brands and NFT holders that discovers, tokenizes, and
             activates communities in the metaverse and web3
           </p>
+          <img alt="" src={socialIcons} width="150" className="mt-4" />
+          <div className="footer-links">
+            <a href="#legal">Legal</a>
+            <span>|</span>
+            <a href="#privacy">Privacy</a>
+            <span>|</span>
+            <a href="#careers">Careers</a>
+            <span>|</span>
+            <a href="#contact">Contact</a>
+          </div>
         </div>
       </Col>
     </div>
