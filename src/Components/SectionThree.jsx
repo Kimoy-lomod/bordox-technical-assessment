@@ -1,9 +1,12 @@
+import { useSelector } from "react-redux";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../styles/SectionThree.css";
 
-const SectionThree = ({ data }) => {
+const SectionThree = () => {
+  const models = useSelector((state) => state.models);
   return (
     <div className="s3-container">
       <div>
@@ -11,24 +14,14 @@ const SectionThree = ({ data }) => {
       </div>
       <Container>
         <Row>
-          <Col>
-            <div className="box box-1">
-              <h3>#1 Match</h3>
-              <p></p>
-            </div>
-          </Col>
-          <Col>
-            <div className="box box-2">
-              <h3>#2 Influence</h3>
-              <p></p>
-            </div>
-          </Col>
-          <Col>
-            <div className="box box-3">
-              <h3>#3 Earn</h3>
-              <p></p>
-            </div>
-          </Col>
+          {models.map(({ title, description }, i) => (
+            <Col>
+              <div className={`box box-${i}`}>
+                <h3>{`#${i} ${title}`} </h3>
+                <p>{description}</p>
+              </div>
+            </Col>
+          ))}
         </Row>
       </Container>
     </div>
