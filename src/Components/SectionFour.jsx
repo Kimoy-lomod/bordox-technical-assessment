@@ -7,8 +7,9 @@ const SectionFour = () => {
       style={{
         backgroundImage: `url(${neonNightClubImg})`,
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "cover",
-        height: "75vh",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        height: "100vh",
         textAlign: "center",
         display: "flex",
         alignItems: "end",

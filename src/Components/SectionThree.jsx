@@ -7,7 +7,7 @@ const SectionThree = () => {
   return (
     <div className="s3-container">
       <div>
-        <h1>The Embed-to-Earn Model</h1>
+        <h1 className="text-center">The Embed-to-Earn Model</h1>
       </div>
       <Container>
         <Row>
