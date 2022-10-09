@@ -1,4 +1,4 @@
-import { Col, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import "../Styles/SectionFive.css";
 import socialIcons from "../Assets/social.svg";
 import embedLogoWhite from "../Assets/embed_logo_white.svg";
