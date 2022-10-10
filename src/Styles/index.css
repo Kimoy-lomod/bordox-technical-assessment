@@ -1,10 +1,10 @@
 .active-link {
-  color: #747FFE;
+  color: #747ffe;
   font-weight: bold;
 }
 
 .inactive-link {
-  color: #280A5F;
+  color: #280a5f;
   font-weight: bold;
 }
 
@@ -12,6 +12,14 @@
   border-radius: 10% !important;
   width: 222px;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-button:hover {
+  color: #747ffe;
+  opacity: 0.8;
 }
 
 .border-gradient {

@@ -21,7 +21,7 @@ function SectionOne() {
             We enable NFT holders to become influencers, build their audience through a turn-key solution developed to
             monetize and transform their portfolio into a yielding asset. We create passion-based communities.
           </p>
-          <CustomButton />
+          <CustomButton className="d-flex justify-content-center" />
         </div>
       </div>
       <video autoPlay loop muted id="myVideo">

@@ -1,11 +1,10 @@
-$primaryColor: #747FFE;
-$secondaryColor: #280A5F;
+$primaryColor: #747ffe;
+$secondaryColor: #280a5f;
 
 .active-link {
   color: $primaryColor;
   font-weight: bold;
 }
-
 
 .inactive-link {
   color: $secondaryColor;
@@ -16,6 +15,14 @@ $secondaryColor: #280A5F;
   border-radius: 10% !important;
   width: 222px;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-button:hover {
+  color: #747ffe;
+  opacity: 0.8;
 }
 
 .border-gradient {
