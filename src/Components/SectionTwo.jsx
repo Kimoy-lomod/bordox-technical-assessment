@@ -1,9 +1,9 @@
-import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../styles/SectionTwo.css";
 import montageEarnGif from "../assets/nft-montage-earn.gif";
+import CustomButton from "./CustomButton";
 
 const SectionTwo = () => {
   return (
@@ -16,10 +16,7 @@ const SectionTwo = () => {
             community around those you love. Be a part of the change and join Embed’s decentralized protocol today
           </p>
           <div>
-            <button class="custom-button border-gradient border-gradient-purple">
-              Join Waitlist
-              <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
-            </button>
+            <CustomButton />
           </div>
         </Col>
         <Col>

@@ -6,4 +6,20 @@
 .inactive-link {
   color: #280A5F;
   font-weight: bold;
+}
+
+.custom-button {
+  border-radius: 10% !important;
+  width: 222px;
+  height: 50px;
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
+.border-gradient-purple {
+  border-image-source: linear-gradient(to right, #f059fc, #00b6ff);
 }/*# sourceMappingURL=index.css.map */

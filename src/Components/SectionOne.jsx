@@ -1,6 +1,7 @@
 import "../styles/SectionOne.css";
 import nftCollectorVideo from "../assets/nft-collectors.mp4";
 import mainLogo from "../assets/logo_white.svg";
+import CustomButton from "./CustomButton";
 
 function SectionOne() {
   return (
@@ -13,13 +14,14 @@ function SectionOne() {
             style={{
               color: "#16BBFD",
               backgroundColor: "#16BBFD",
-              height: 5, 
+              height: 5,
             }}
           />
           <p>
             We enable NFT holders to become influencers, build their audience through a turn-key solution developed to
             monetize and transform their portfolio into a yielding asset. We create passion-based communities.
           </p>
+          <CustomButton />
         </div>
       </div>
       <video autoPlay loop muted id="myVideo">
