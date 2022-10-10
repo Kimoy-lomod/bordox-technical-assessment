@@ -17,7 +17,7 @@ const SectionThree = () => {
   }, [models]);
 
   return (
-    <div className="s3-container">
+    <div id="promote" className="s3-container">
       <div>
         <h1 className="text-center">The Embed-to-Earn Model</h1>
       </div>
@@ -26,7 +26,7 @@ const SectionThree = () => {
           {data.map(({ title, description }, i) => (
             <Col key={i}>
               <div className={`box box-${i}`}>
-                <h3>{`#${i} ${title}`} </h3>
+                <h3>{`#${i + 1} ${title}`} </h3>
                 <p>{description}</p>
               </div>
             </Col>

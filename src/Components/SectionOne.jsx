@@ -6,7 +6,7 @@ import CustomButton from "./CustomButton";
 function SectionOne() {
   return (
     <>
-      <div class="content">
+      <div id="home" class="content">
         <div class="details-content">
           <img alt="" src={mainLogo} width="60" height="60" className="my-3 mx-3 d-inline-block align-top" />
           <h1>Embed empowers you to monetize your portfolio</h1>

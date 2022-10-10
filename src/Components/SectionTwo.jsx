@@ -7,7 +7,7 @@ import CustomButton from "./CustomButton";
 
 const SectionTwo = () => {
   return (
-    <Container>
+    <Container id="earn">
       <Row className="container">
         <Col className="section-two-details">
           <h1>Lead the change</h1>

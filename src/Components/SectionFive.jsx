@@ -5,7 +5,7 @@ import embedLogoWhite from "../assets/embed_logo_white.svg";
 
 const SectionFive = () => {
   return (
-    <div style={{ padding: "20rem 20rem", display: "flex", backgroundColor: "#280A5F", color: "white", height: "70vh" }}>
+    <div style={{ padding: "12rem 20rem", display: "flex", backgroundColor: "#280A5F", color: "white", height: "70vh" }}>
       <Col>
         <div>
           <img alt="" src={embedLogoWhite} width="200" />

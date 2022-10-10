@@ -4,7 +4,7 @@ import "../styles/SectionFour.css";
 
 const SectionFour = () => {
   return (
-    <div
+    <div id="join"
       className="s4-container"
       style={{
         backgroundImage: `url(${neonNightClubImg})`,
